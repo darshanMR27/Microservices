@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: payments-webseries-web
+  beaninfo:
+    ignore: true
+  profiles:
+    include:
+      - local
+      - actuator
+  jpa:
+    database-platform: org.eclipse.persistence.platform.database.oracle.Oracle12Platform
+  datasource:
+    validation-query: SELECT 1 from DUAL
+    test-on-borrow: true
