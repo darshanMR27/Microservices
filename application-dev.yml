@@ -1,14 +1,7 @@
-spring:
-  application:
-    name: payments-webseries-web
-  beaninfo:
-    ignore: true
-  profiles:
-    include:
-      - local
-      - actuator
-  jpa:
-    database-platform: org.eclipse.persistence.platform.database.oracle.Oracle12Platform
-  datasource:
-    validation-query: SELECT 1 from DUAL
-    test-on-borrow: true
+client:
+  message: Development Env Client Microservices successfully invoking Cloud Config Server to fetch the properties from Git location
+    
+database:
+  connection: jdbc:oracle:thin:@10.232.80.116:1521:orcl1-dev
+  host: 127.0.0.1
+  port: 1521
