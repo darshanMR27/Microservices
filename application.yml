@@ -1,0 +1,27 @@
+server:
+  port: 9999
+  servlet:
+    contextPath: /admin-service
+
+spring:
+  profiles:
+    include:
+      - actuator
+  application:
+    name: payments-webseries-admin
+  beaninfo:
+    ignore: true
+
+jpavendor:
+  target:
+    database: Oracle
+
+jdbc:
+  factory: com.bottomline.corporate.application.factory.TomcatDataSourceFactory
+  testQuery: SELECT 1 FROM DUAL
+  maxPoolSize: 15
+  minPoolSize: 1
+  connectionTimeout: 0
+  preparedStatementCacheSize: 0
+  driverClassName: oracle.jdbc.OracleDriver
+  url: jdbc:oracle:thin:@10.232.80.116:1521:orcl1
