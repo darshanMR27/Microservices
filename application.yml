@@ -15,7 +15,6 @@ jpavendor:
     database: Oracle
 
 jdbc:
-  factory: com.bottomline.corporate.application.factory.TomcatDataSourceFactory
   testQuery: SELECT 1 FROM DUAL
   maxPoolSize: 15
   minPoolSize: 1
