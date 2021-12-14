@@ -1,0 +1,7 @@
+client:
+  message: Client Microservice successfully invoking Config Server to fetch the property from Git location
+    
+db:
+  connection: jdbc:oracle:thin:@10.232.80.116:1521:orcl1
+  host: localhost
+  port: 1521
