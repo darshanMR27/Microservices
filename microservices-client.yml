@@ -3,5 +3,5 @@ client:
     
 db:
   connection: jdbc:oracle:thin:@10.232.80.116:1521:orcl1
-  host: localhost
+  host: 127.0.0.1
   port: 1521
