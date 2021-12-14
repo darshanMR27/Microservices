@@ -1,6 +1,4 @@
-server:
-  port: 9999
-  servlet:
+servlet:
     contextPath: /admin-service
 
 spring:
