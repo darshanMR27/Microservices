@@ -1,5 +1,5 @@
 client:
-  message: Client Microservice successfully invoking Config Server to fetch the property from Git location
+  message: Client Microservices successfully invoking Cloud Config Server to fetch the properties from Git location
     
 database:
   connection: jdbc:oracle:thin:@10.232.80.116:1521:orcl1
