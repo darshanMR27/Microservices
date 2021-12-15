@@ -2,6 +2,6 @@ client:
   message: Microservices-Client-dev env Client Microservices successfully invoking Cloud Config Server to fetch the properties from Git location
     
 database:
-  connection: jdbc:oracle:thin:@10.232.80.116:1521:orcl1-ms-dev
+  connection: jdbc:oracle:thin:@localhost:1521:orcl1-ms-dev
   host: 127.0.0.1
-  port: 1521
+  port: 1544
