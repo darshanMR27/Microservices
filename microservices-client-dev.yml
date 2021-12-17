@@ -2,6 +2,6 @@ client:
   message: Development Profile - Client Microservice instance successfully invoking Cloud Config Server to fetch the properties from centralised GIT Repo location
     
 database:
-  connection: jdbc:oracle:thin:@localhost:1544:orcl5-ms-development
-  host: 0.0.0.0
-  port: 1544
+  connection: jdbc:oracle:thin:@localhost:1522:orcl5-ms-development
+  host: localhost
+  port: 1522
