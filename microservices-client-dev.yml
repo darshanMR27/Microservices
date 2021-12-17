@@ -3,5 +3,5 @@ client:
     
 database:
   connection: jdbc:oracle:thin:@localhost:1522:orcl5-ms-development
-  host: localhost
-  port: 1522
+  host: 0.0.0.0
+  port: 1566
